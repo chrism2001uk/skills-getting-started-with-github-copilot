@@ -142,3 +142,43 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #eee;
+}
+
+.participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+
+.participants ul {
+  list-style: disc inside;
+  margin: 0;
+  padding: 0;
+}
+
+.participants li {
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: #fafafa;
+  border: 1px solid #f0f0f0;
+  font-size: 14px;
+  color: #222;
+}
+
+.no-participants {
+  font-style: italic;
+  color: #666;
+  padding: 8px 0;
+}
+
+/* small muted helper class used for the no-participants message */
+.muted {
+  color: #8a8a8a;
+}
